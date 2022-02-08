@@ -1,0 +1,14 @@
+{
+  "name": "prueba-tutorial-version3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "report": "node index.js"
+  },
+  "author": "fercho",
+  "license": "ISC",
+  "devDependencies": {
+    "multiple-cucumber-html-reporter": "^1.18.0"
+  }
+}
