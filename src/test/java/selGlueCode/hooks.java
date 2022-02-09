@@ -23,7 +23,7 @@ public class hooks {
         /*
         System.setProperty("webdriver.chrome.driver","./src/test/resources/chromedriver/chromedriver.exe");
         driver = new ChromeDriver(); */
-        driverManager = driverManagerFactory.getManager(DriverType.EDGE);
+        driverManager = driverManagerFactory.getManager(DriverType.CHROME);
         driver = driverManager.getDriver();
         driver.get("https://imalittletester.com/");
         driver.manage().window().maximize();
